@@ -1,0 +1,95 @@
+html{
+  box-sizing: border-box;
+}
+
+*, *::after, *::before{
+  box-sizing: inherit;
+}
+
+body{
+  background-image: url("/src/assets/img/1286557.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+}
+
+h2{
+  color: #ffccd5;
+}
+h3{
+  color: #ffccd5;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  
+}
+
+.card{
+  background: -webkit-radial-gradient(#800f2ff5, #590d23f6, #1f050c);
+  border-radius: 25px;
+  padding: 25px 20px;
+  width: 550px;
+
+}
+
+.image{
+  width: 200px;
+  border-radius: 25px;
+  margin: 0;
+  margin-left: 10px;
+  
+}
+.flag{
+  width: 35px;
+  border-radius: 85px;
+}
+
+.logo{
+  width: 70px;
+}
+
+.qatar{
+  width: 90px;
+}
+
+.span{
+  color: #ff8fa3;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.media{
+  margin: 20px;
+  margin-left: 0;
+}
+
+.playerCard{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.logos{
+  text-align: center;
+}
+
+.logos div{
+  margin-top: 50px;
+}
+
+.button{
+  background-color: #ffccd5;
+  border-radius: 100px;
+  border: none;
+  transition: .2s;
+}
+
+.button:hover{
+  transform: scale(0.95);
+  border: none;
+}
+
+.button i{
+  color: #590d22;
+}
